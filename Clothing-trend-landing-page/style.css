@@ -1,0 +1,198 @@
+/*----- Navbar  Section -----*/
+
+.navbar-container{
+    display:inline-flex;
+    column-gap: 14vi;
+    margin: 2.5vi 4vi 3vi 3vi;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.logo{
+    width: 9vi;
+    margin-left: 2.5vi;
+}
+
+.list{
+    list-style: none;
+    display: inline-flex;
+    column-gap: 3vi;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item{
+    font-family: "Orbitron";
+    font-size: 1.3vi;
+    font-weight: 600;
+}
+
+.list-item>a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.list-item>a:active{
+    font-size: 1.6vi;
+    font-weight: 800;
+    position: relative;
+}
+
+/* -----to add underline------  */
+.list-item>a:active::after{
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: 0.1vh;
+    bottom: 0;
+    left: 20%;
+    border-bottom: 0.2vi solid #000;
+}
+
+/*---- to display home as active link---- */
+
+.list-item:first-child{
+    font-size: 1.6vi;
+    font-weight: 800;
+    position: relative;
+}
+
+.list-item:first-child::after{
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: 0.1vh;
+    bottom: 0;
+    left: 20%;
+    border-bottom: 0.2vi solid #000;
+}
+
+
+.button-group{
+    display: inline-flex;
+    justify-content:center;
+    align-items:center ;
+    column-gap: 0.5vi;
+    width: fit-content;
+    height: fit-content;
+}
+
+.search-icon>svg{
+    width: 2.5vi;
+}
+
+.nav-button{
+    background-color: #fff;
+    font-size: 1.5vi;
+    color: #686767;
+    border-radius: 0.8vi;
+    border-width: 0.2vi;
+    font-family: 'Poppins'; 
+    padding: 0.2vh 2.2vw 0.1vh;
+}
+
+/* <!-- Hero Banner Section --> */
+
+.hero-container{
+    margin-left: 7vi;
+    position: relative;
+}
+
+
+.star>img{
+    position: absolute;
+    right:3vi;
+    top:2vi;
+    width: 4vi;
+}
+
+.globe>img{
+    position: absolute;
+    left:43vw; 
+    width: 4vi;
+}
+
+.photo>img{
+    position: relative;
+    top:3vi;
+    width:30vi;
+}
+
+.square>img{
+    position: absolute;
+    width:23vi;
+    top:21vi;
+    left:11vi
+}
+
+/* ----hero-container-right ----*/
+
+.hero-container-right{
+    position: absolute;
+    top: 8vi;
+    left:35vi;
+    text-align: center;
+}
+
+.hero-heading{
+    font-family: "Orbitron";
+    font-size: 4vi;
+    position: relative;
+}
+
+
+.hero-description{
+    color: #504e4e;
+    text-align: center;
+    width: 35vi;
+    position: absolute;
+    top:9vi;
+    left: 10vi;
+    font-size: 1vi;
+}
+
+.buttons{
+    position: absolute;
+    top:18vi;
+    left: 17vi;
+}
+.buttons>button{
+    font-family:'Orbitron';
+    font-size: 1vi;
+    font-weight: 500;
+    border-radius: 0.5vi;
+}
+
+.button-email{
+    padding: 0.2vh 1vw;
+    color: #555555;
+    background-color: #fff;
+}
+.button-join{
+    background-color: #000000;
+    color: #fff;
+    margin-left: 1vi;
+}
+
+.contact{
+    position: absolute;
+    top:25vi;
+    left:20vi;
+}
+
+.contact-heading{
+    color: #7c7c7c;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1vi;
+}
+
+.icons{
+    display: flex;
+    column-gap: 1vi;
+}
+
+.icons>span>img{
+    width:3vi;
+}
