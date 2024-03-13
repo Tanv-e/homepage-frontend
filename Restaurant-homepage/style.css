@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+ background-color: rgba(25, 32, 57, 0.779);
+ background-image: url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+ background-size: cover;
+ background-blend-mode:darken;
+ background-repeat: no-repeat;
+}
+
+/* ---------- NAVBAR ------------ */
+
+.navbar{
+    display: inline-flex;
+    column-gap: 20vi;
+    margin: 2.5vi 3vi 3vi 4vi;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 9vi;
+}
+
+.list{
+    list-style: none;
+    display: inline-flex;
+    column-gap: 4vi;
+    align-items: center;
+  justify-content: center;
+}
+
+.list-item{
+  font-size: 1.2vi;
+  padding: 0.4vi;
+  font-weight: 300;
+  color: #f8c136;
+}
+
+.button-small{
+    border-style: none;
+    background-color: #ff505f;
+    color: #fff;
+    font-size: 1.5vi;
+    font-weight: 400;
+    padding: 0.5vi 3vi;
+}
+
+/* ---Hero Section ---*/
+
+.hero{
+    position: absolute;
+    left:10vi;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.hero-heading{
+  font-family: "Dela Gothic One";
+  font-size: 6vi;
+  text-align: center;
+  justify-content: center;
+  width: 85%;
+  font-weight: 100;
+  line-height: 1.2;
+  color: #f8c136;
+  position: relative;
+  margin-top: 4vi;
+}
+.button-large{
+    border-style: none;
+    background-color: #ff505f;
+    color: #fff;
+    font-size: 1.5vi;
+    font-weight: 400;
+    padding: 1vi 2.2vi;
+    position: absolute;
+    top:30vi;
+    left:35vi;
+}
+.bottom{
+    position: fixed;
+    bottom:5vi;
+    right: 3vi;
+}
+  
+.bottom>div>img{
+    width:9vi;
+}
